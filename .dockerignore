@@ -1,0 +1,23 @@
+# IDE folders
+.idea/
+.vscode/
+venv/
+dist/
+build/
+
+# temp files
+*~
+pids.txt
+
+# compiled files
+*.pyc
+*.stats
+
+# config files
+*config.ini
+*yaml
+!config/image_links.yaml
+!config/sim_server_container.yaml
+Dockerfile
+
+
