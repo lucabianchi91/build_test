@@ -1,6 +1,6 @@
 # build_test
 
-To reproduce the build issue, clone and run
+To reproduce the build issue, clone and run (inside the cloned folder)
 `docker build -t build_test .`
 
 This should result in `AttributeError: module 'queue' has no attribute 'Full'`
@@ -16,4 +16,3 @@ To verify it:
 ```
 docker run -it --rm --entrypoint="" build_test python3 /root/build_test/build_test.py
 ```
-
